@@ -4,7 +4,7 @@
       "id": "fd28",
       "category": "UI Testing",
       "type": "Web App",
-      "name": "Kiểm tra bố cục tổng thểss",
+      "name": "Kiểm tra bố cục tổng thể",
       "steps": [
         "Mở trang chủ website và quan sát bố cục"
       ],
