@@ -1,0 +1,1394 @@
+{
+  "testcases": [
+    {
+      "id": "fd28",
+      "category": "UI Testing",
+      "type": "Web App",
+      "name": "Kiểm tra bố cục tổng thể",
+      "steps": [
+        "Mở trang chủ website và quan sát bố cục"
+      ],
+      "expected": "Bố cục đúng theo thiết kế, không bị vỡ layout"
+    },
+    {
+      "id": "0ab1",
+      "category": "UI Testing",
+      "type": "Web App",
+      "name": "Khoảng cách giữa các phần tử",
+      "steps": [
+        "So sánh khoảng cách giữa các button, section theo bản thiết kế UI"
+      ],
+      "expected": "Khoảng cách đều, không quá chật hay quá rộng"
+    },
+    {
+      "id": "a272",
+      "category": "UI Testing",
+      "type": "Web App",
+      "name": "Kiểm tra responsive trên các thiết bị",
+      "steps": [
+        "Mở trang bằng trình duyệt, đổi kích thước từ desktop → tablet → mobile"
+      ],
+      "expected": "Giao diện co giãn phù hợp, không tràn, không vỡ"
+    },
+    {
+      "id": "28d4",
+      "category": "UI Testing",
+      "type": "Web App",
+      "name": "Màu sắc thành phần UI",
+      "steps": [
+        "So sánh màu nút, link, tiêu đề với file thiết kế (Figma/Zeplin...)"
+      ],
+      "expected": "Màu sắc hiển thị đúng, không lệch tông, không lỗi hiển thị"
+    },
+    {
+      "id": "da5d",
+      "category": "UI Testing",
+      "type": "Web App",
+      "name": "Font chữ",
+      "steps": [
+        "Quan sát tiêu đề, đoạn văn bản, placeholder"
+      ],
+      "expected": "Font đúng loại, kích thước, không bị vỡ font, không bị đứt nét"
+    },
+    {
+      "id": "cffe",
+      "category": "UI Testing",
+      "type": "Web App",
+      "name": "Kiểm tra icon",
+      "steps": [
+        "Quan sát icon trong nút, menu, hoặc breadcrumb"
+      ],
+      "expected": "Icon hiển thị đúng, không bị thiếu, không vỡ hình"
+    },
+    {
+      "id": "e7a5",
+      "category": "UI Testing",
+      "type": "Web App",
+      "name": "Kiểm tra button (style + trạng thái)",
+      "steps": [
+        "Hover chuột, click, focus vào button"
+      ],
+      "expected": "Nút đổi màu khi hover/focus, disabled không tương tác được"
+    },
+    {
+      "id": "2fe8",
+      "category": "UI Testing",
+      "type": "Web App",
+      "name": "Kiểm tra input field",
+      "steps": [
+        "Click vào input, nhập dữ liệu, quan sát viền, placeholder"
+      ],
+      "expected": "Viền hiển thị rõ khi focus, placeholder dễ hiểu"
+    },
+    {
+      "id": "ca37",
+      "category": "UI Testing",
+      "type": "Web App",
+      "name": "Dropdown",
+      "steps": [
+        "Click để mở dropdown, chọn 1 giá trị"
+      ],
+      "expected": "Dropdown mở đúng vị trí, giá trị được chọn hiển thị"
+    },
+    {
+      "id": "4123",
+      "category": "UI Testing",
+      "type": "Web App",
+      "name": "Checkbox / Radio",
+      "steps": [
+        "Click chọn và bỏ chọn checkbox/radio"
+      ],
+      "expected": "Có dấu tick rõ ràng, chọn được 1 radio duy nhất"
+    },
+    {
+      "id": "7f4e",
+      "category": "UI Testing",
+      "type": "Web App",
+      "name": "Ảnh hiển thị",
+      "steps": [
+        "Kiểm tra ảnh sản phẩm, avatar, banner"
+      ],
+      "expected": "Ảnh không bị méo, không bị vỡ, load nhanh"
+    },
+    {
+      "id": "57f1",
+      "category": "UI Testing",
+      "type": "Web App",
+      "name": "Tooltip",
+      "steps": [
+        "Hover vào icon có dấu ? hoặc i"
+      ],
+      "expected": "Tooltip hiển thị nội dung rõ, không bị che"
+    },
+    {
+      "id": "c878",
+      "category": "UI Testing",
+      "type": "Web App",
+      "name": "Modal / Popup",
+      "steps": [
+        "Click nút mở modal hoặc form popup"
+      ],
+      "expected": "Popup hiển thị giữa màn hình, có overlay nền, đóng được"
+    },
+    {
+      "id": "44a1",
+      "category": "UI Testing",
+      "type": "Web App",
+      "name": "Loading Indicator",
+      "steps": [
+        "Click vào thao tác tốn thời gian (submit form, load bảng...)"
+      ],
+      "expected": "Spinner/loader hiển thị trong lúc chờ, biến mất sau khi xong"
+    },
+    {
+      "id": "fbd3",
+      "category": "UI Testing",
+      "type": "Web App",
+      "name": "Scroll trang",
+      "steps": [
+        "Cuộn xuống cuối trang, cuộn ngang"
+      ],
+      "expected": "Cuộn mượt, không bị giật, không có thanh cuộn ngang bất thường"
+    },
+    {
+      "id": "5b57",
+      "category": "UI Testing",
+      "type": "Web App",
+      "name": "Back to top button",
+      "steps": [
+        "Cuộn xuống và quan sát nút quay lên đầu trang"
+      ],
+      "expected": "Nút hiển thị sau khi scroll, click vào scroll lên đầu trang"
+    },
+    {
+      "id": "bfaa",
+      "category": "UI Testing",
+      "type": "Web App",
+      "name": "Trạng thái active trên menu",
+      "steps": [
+        "Truy cập 1 trang → quan sát menu bên trái/trên đầu"
+      ],
+      "expected": "Menu được tô sáng hoặc gạch chân khi đang active"
+    },
+    {
+      "id": "2149",
+      "category": "UI Testing",
+      "type": "Web App",
+      "name": "Breadcrumb",
+      "steps": [
+        "Vào trang con → quan sát breadcrumb"
+      ],
+      "expected": "Breadcrumb hiển thị đúng thứ tự điều hướng (Trang chủ > Danh mục > Trang con)"
+    },
+    {
+      "id": "d353",
+      "category": "Content Testing",
+      "type": "Web App",
+      "name": "Lỗi chính tả",
+      "steps": [
+        "Đọc toàn bộ tiêu đề, đoạn văn, button, label"
+      ],
+      "expected": "Không có lỗi chính tả hoặc font không hiển thị được"
+    },
+    {
+      "id": "9061",
+      "category": "UI Testing",
+      "type": "Web App",
+      "name": "Dạng hiển thị list/card/table",
+      "steps": [
+        "Kiểm tra danh sách sản phẩm, bảng dữ liệu"
+      ],
+      "expected": "Căn chỉnh đều, không bị tràn, không cắt nội dung"
+    },
+    {
+      "id": "ab51",
+      "category": "Functionality Testing",
+      "type": "Web App",
+      "name": "Kiểm tra chức năng đăng nhập hợp lệ",
+      "steps": [
+        "Nhập email và mật khẩu hợp lệ → click \"Đăng nhập\""
+      ],
+      "expected": "Hệ thống đăng nhập và chuyển đến trang chính"
+    },
+    {
+      "id": "f4ec",
+      "category": "Functionality Testing",
+      "type": "Web App",
+      "name": "Kiểm tra đăng nhập với thông tin sai",
+      "steps": [
+        "Nhập sai email hoặc mật khẩu → click \"Đăng nhập\""
+      ],
+      "expected": "Hiển thị thông báo lỗi, không cho vào hệ thống"
+    },
+    {
+      "id": "df4a",
+      "category": "Functionality Testing",
+      "type": "Web App",
+      "name": "Kiểm tra chức năng đăng ký người dùng",
+      "steps": [
+        "Nhập đầy đủ thông tin hợp lệ → click \"Đăng ký\""
+      ],
+      "expected": "Người dùng mới được tạo, thông báo thành công"
+    },
+    {
+      "id": "b757",
+      "category": "Functionality Testing",
+      "type": "Web App",
+      "name": "Kiểm tra chức năng tìm kiếm",
+      "steps": [
+        "Nhập từ khóa tìm kiếm → nhấn nút \"Tìm kiếm\""
+      ],
+      "expected": "Hiển thị kết quả liên quan đến từ khóa"
+    },
+    {
+      "id": "854c",
+      "category": "Functionality Testing",
+      "type": "Web App",
+      "name": "Kiểm tra nút \"Đăng xuất\"",
+      "steps": [
+        "Khi đã đăng nhập → click vào nút \"Đăng xuất\""
+      ],
+      "expected": "Người dùng bị đăng xuất, quay lại trang login"
+    },
+    {
+      "id": "3f8a",
+      "category": "Functionality Testing",
+      "type": "Web App",
+      "name": "Kiểm tra gửi form liên hệ",
+      "steps": [
+        "Nhập đầy đủ thông tin hợp lệ → click \"Gửi\""
+      ],
+      "expected": "Hiển thị thông báo \"Đã gửi thành công\", email được gửi đi nếu có"
+    },
+    {
+      "id": "53c4",
+      "category": "Functionality Testing",
+      "type": "Web App",
+      "name": "Kiểm tra hiển thị chi tiết sản phẩm",
+      "steps": [
+        "Trên trang danh sách → click vào 1 sản phẩm"
+      ],
+      "expected": "Chuyển đến trang chi tiết sản phẩm tương ứng"
+    },
+    {
+      "id": "b5e8",
+      "category": "Functionality Testing",
+      "type": "Web App",
+      "name": "Kiểm tra chức năng thêm vào giỏ hàng",
+      "steps": [
+        "Tại trang sản phẩm → click 'Thêm vào giỏ hàng'"
+      ],
+      "expected": "Sản phẩm được thêm vào giỏ, biểu tượng giỏ hàng cập nhật số lượng"
+    },
+    {
+      "id": "2f98",
+      "category": "Functionality Testing",
+      "type": "Web App",
+      "name": "Kiểm tra tiến hành thanh toán",
+      "steps": [
+        "Vào giỏ hàng → nhấn nút 'Thanh toán'"
+      ],
+      "expected": "Chuyển đến trang thanh toán, hiển thị tổng tiền"
+    },
+    {
+      "id": "95c4",
+      "category": "Functionality Testing",
+      "type": "Web App",
+      "name": "Kiểm tra gửi lại mật khẩu (quên mật khẩu)",
+      "steps": [
+        "Nhấn 'Quên mật khẩu' → nhập email hợp lệ → click gửi"
+      ],
+      "expected": "Hiển thị thông báo 'Đã gửi email', email khôi phục được gửi đi"
+    },
+    {
+      "id": "26f0",
+      "category": "Form Input Validation",
+      "type": "Web App",
+      "name": "Kiểm tra trường bắt buộc không được bỏ trống",
+      "steps": [
+        "Để trống các trường bắt buộc → nhấn 'Gửi' hoặc 'Submit'"
+      ],
+      "expected": "Hiển thị thông báo lỗi \"Trường này là bắt buộc\""
+    },
+    {
+      "id": "2d4f",
+      "category": "Form Input Validation",
+      "type": "Web App",
+      "name": "Kiểm tra định dạng email hợp lệ",
+      "steps": [
+        "Nhập sai định dạng email (vd: abc@, @gmail, abc.com) → Submit"
+      ],
+      "expected": "Hiển thị thông báo lỗi \"Email không hợp lệ\""
+    },
+    {
+      "id": "22b2",
+      "category": "Form Input Validation",
+      "type": "Web App",
+      "name": "Kiểm tra độ dài tối thiểu của mật khẩu",
+      "steps": [
+        "Nhập mật khẩu < 6 ký tự → Submit"
+      ],
+      "expected": "Hiển thị lỗi \"Mật khẩu phải có ít nhất 6 ký tự\""
+    },
+    {
+      "id": "4f8a",
+      "category": "Form Input Validation",
+      "type": "Web App",
+      "name": "Kiểm tra độ dài tối đa của họ tên",
+      "steps": [
+        "Nhập họ tên dài quá 50 ký tự → Submit"
+      ],
+      "expected": "Hiển thị lỗi \"Họ tên không được vượt quá 50 ký tự\""
+    },
+    {
+      "id": "a59a",
+      "category": "Form Input Validation",
+      "type": "Web App",
+      "name": "Kiểm tra trường số chỉ được nhập số",
+      "steps": [
+        "Nhập chữ hoặc ký tự đặc biệt vào trường SĐT/tuổi → Submit"
+      ],
+      "expected": "Hiển thị lỗi \"Vui lòng nhập số hợp lệ\""
+    },
+    {
+      "id": "2c20",
+      "category": "Form Input Validation",
+      "type": "Web App",
+      "name": "Kiểm tra xác nhận mật khẩu",
+      "steps": [
+        "Nhập 'Mật khẩu' ≠ 'Xác nhận mật khẩu' → Submit"
+      ],
+      "expected": "Hiển thị lỗi \"Mật khẩu xác nhận không khớp\""
+    },
+    {
+      "id": "ad42",
+      "category": "Form Input Validation",
+      "type": "Web App",
+      "name": "Kiểm tra không nhập ký tự đặc biệt ở tên",
+      "steps": [
+        "Nhập tên: @Nguyễn$ Văn% → Submit"
+      ],
+      "expected": "Hiển thị lỗi \"Tên không được chứa ký tự đặc biệt\""
+    },
+    {
+      "id": "c48d",
+      "category": "Form Input Validation",
+      "type": "Web App",
+      "name": "Kiểm tra trường chọn (select/dropdown)",
+      "steps": [
+        "Không chọn giá trị nào trong dropdown → Submit"
+      ],
+      "expected": "Hiển thị lỗi \"Vui lòng chọn giá trị\""
+    },
+    {
+      "id": "2073",
+      "category": "Form Input Validation",
+      "type": "Web App",
+      "name": "Kiểm tra định dạng ngày tháng",
+      "steps": [
+        "Nhập sai định dạng ngày (vd: 32/13/2024, abc) → Submit"
+      ],
+      "expected": "Hiển thị lỗi \"Ngày không hợp lệ\""
+    },
+    {
+      "id": "f741",
+      "category": "Form Input Validation",
+      "type": "Web App",
+      "name": "Kiểm tra upload file đúng định dạng",
+      "steps": [
+        "Upload file sai định dạng (vd: .exe, .bat) → Submit"
+      ],
+      "expected": "Hiển thị lỗi \"Chỉ chấp nhận file JPG, PNG, PDF...\""
+    },
+    {
+      "id": "e712",
+      "category": "Form Input Validation",
+      "type": "Web App", 
+      "name": "Kiểm tra kích thước file tải lên",
+      "steps": [
+        "Tải lên file quá lớn (vd: ảnh > 5MB) → Submit"
+      ],
+      "expected": "Hiển thị lỗi \"Kích thước file không được vượt quá XMB\""
+    },
+    {
+      "id": "4c23",
+      "category": "Form Input Validation",
+      "type": "Web App",
+      "name": "Kiểm tra trường nhập số giới hạn",
+      "steps": [
+        "Nhập giá trị quá lớn hoặc quá nhỏ vào trường số (ví dụ: nhập 999 cho trường \"Tuổi\")"
+      ],
+      "expected": "Hiển thị lỗi \"Giá trị phải nằm trong khoảng X-Y\""
+    },
+    {
+      "id": "604a",
+      "category": "Cross-browser & Cross-device Testing",
+      "type": "Web App",
+      "name": "Hiển thị đúng layout trên Chrome PC",
+      "steps": [
+        "Mở website bằng Chrome (bản mới nhất) trên máy tính"
+      ],
+      "expected": "Giao diện hiển thị đúng, không vỡ khung, font chuẩn, chức năng đầy đủ"
+    },
+    {
+      "id": "c387",
+      "category": "Cross-browser & Cross-device Testing",
+      "type": "Web App",
+      "name": "Hiển thị đúng layout trên Firefox PC",
+      "steps": [
+        "Mở website bằng Firefox (bản mới nhất) trên máy tính"
+      ],
+      "expected": "Giao diện và chức năng hoạt động giống Chrome"
+    },
+    {
+      "id": "00d6",
+      "category": "Cross-browser & Cross-device Testing",
+      "type": "Web App",
+      "name": "Kiểm tra hoạt động trên Microsoft Edge PC",
+      "steps": [
+        "Mở website bằng Microsoft Edge → thực hiện thao tác login, search, click button"
+      ],
+      "expected": "Tất cả thao tác hoạt động đúng, không lỗi hiển thị"
+    },
+    {
+      "id": "f74f",
+      "category": "Cross-browser & Cross-device Testing",
+      "type": "Web App",
+      "name": "Hiển thị đúng trên Safari (macOS)",
+      "steps": [
+        "Truy cập website bằng Safari trên máy Mac"
+      ],
+      "expected": "Layout đúng, không bị tràn, JS hoạt động ổn định"
+    },
+    {
+      "id": "d169",
+      "category": "Cross-browser & Cross-device Testing",
+      "type": "Web App",
+      "name": "Kiểm tra responsive trên Chrome Android",
+      "steps": [
+        "Mở website bằng Chrome trên điện thoại Android"
+      ],
+      "expected": "Website tự động co dãn giao diện, font đủ lớn, các nút dễ bấm"
+    },
+    {
+      "id": "4e73",
+      "category": "Cross-browser & Cross-device Testing",
+      "type": "Web App",
+      "name": "Kiểm tra responsive trên Safari iPhone",
+      "steps": [
+        "Mở website trên iPhone → kiểm tra layout, menu, form"
+      ],
+      "expected": "Menu hiển thị rõ, không bị ẩn, layout không vỡ"
+    },
+    {
+      "id": "8f3f",
+      "category": "Cross-browser & Cross-device Testing",
+      "type": "Web App",
+      "name": "Kiểm tra cuộn dọc/trang dài trên điện thoại",
+      "steps": [
+        "Truy cập trang dài → cuộn xuống bằng ngón tay"
+      ],
+      "expected": "Không bị lag, cuộn mượt, các phần tử không bị lẫn lộn"
+    },
+    {
+      "id": "9eb2",
+      "category": "Cross-browser & Cross-device Testing",
+      "type": "Web App",
+      "name": "Kiểm tra các tính năng JS (popup/modal) trên mọi trình duyệt",
+      "steps": [
+        "Click mở popup/modal trên Chrome, Firefox, Safari"
+      ],
+      "expected": "Popup mở đúng vị trí, hoạt động được nút đóng"
+    },
+    {
+      "id": "41e6",
+      "category": "Cross-browser & Cross-device Testing",
+      "type": "Web App",
+      "name": "Kiểm tra font chữ và biểu tượng (icon)",
+      "steps": [
+        "Kiểm tra hiển thị icon/font-awesome hoặc Google Font trên các trình duyệt khác nhau"
+      ],
+      "expected": "Icon/font hiển thị đúng, không bị lỗi hộp vuông hoặc mất ký tự"
+    },
+    {
+      "id": "1e2f",
+      "category": "Cross-browser & Cross-device Testing",
+      "type": "Web App",
+      "name": "Kiểm tra hình ảnh có hiển thị đúng",
+      "steps": [
+        "Truy cập trang có hình ảnh từ các thiết bị/trình duyệt khác nhau"
+      ],
+      "expected": "Tất cả ảnh được tải lên đầy đủ, không vỡ hình hoặc mất ảnh"
+    },
+    {
+      "id": "5c78",
+      "category": "Cross-browser & Cross-device Testing",
+      "type": "Web App",
+      "name": "Kiểm tra hiển thị đúng layout trên các độ phân giải nhỏ",
+      "steps": [
+        "Mở trang trên thiết bị hoặc trình giả lập độ phân giải 320px, 375px, 414px,..."
+      ],
+      "expected": "Giao diện không bị vỡ, cuộn ngang, nội dung nằm gọn trong khung"
+    },
+    {
+      "id": "f5c4",
+      "category": "Cross-browser & Cross-device Testing",
+      "type": "Web App",
+      "name": "Kiểm tra responsive của header và footer",
+      "steps": [
+        "Quan sát phần header, menu, logo và footer ở chế độ mobile"
+      ],
+      "expected": "Co lại hợp lý, menu chuyển thành icon hoặc collapsible"
+    },
+    {
+      "id": "3a03",
+      "category": "Cross-browser & Cross-device Testing",
+      "type": "Web App",
+      "name": "Kiểm tra hiển thị form trên mobile",
+      "steps": [
+        "Mở các form đăng nhập, đăng ký, liên hệ,... trên mobile"
+      ],
+      "expected": "Input không bị tràn, font đủ lớn, dễ chạm, không bị che bởi bàn phím"
+    },
+    {
+      "id": "6c57",
+      "category": "Cross-browser & Cross-device Testing",
+      "type": "Web App",
+      "name": "Kiểm tra icon menu dạng hamburger có hoạt động không",
+      "steps": [
+        "Nhấn vào icon 3 gạch (hamburger menu) trong chế độ mobile"
+      ],
+      "expected": "Menu mở ra đúng, dễ thao tác, không bị che"
+    },
+    {
+      "id": "a697",
+      "category": "Cross-browser & Cross-device Testing",
+      "type": "Web App",
+      "name": "Kiểm tra thao tác chạm (tap, swipe, zoom)",
+      "steps": [
+        "Thử tap vào các button/link, swipe carousel, pinch zoom hình ảnh"
+      ],
+      "expected": "Phản hồi đúng thao tác, không bị delay, không bị chồng lấn"
+    },
+    {
+      "id": "3988",
+      "category": "Cross-browser & Cross-device Testing",
+      "type": "Web App",
+      "name": "Kiểm tra thứ tự nội dung trên mobile",
+      "steps": [
+        "So sánh thứ tự nội dung desktop vs mobile"
+      ],
+      "expected": "Trình bày lại hợp lý, ưu tiên thông tin quan trọng trước"
+    },
+    {
+      "id": "64c3",
+      "category": "Cross-browser & Cross-device Testing",
+      "type": "Web App",
+      "name": "Kiểm tra tính năng cuộn không bị lỗi",
+      "steps": [
+        "Cuộn toàn bộ trang theo chiều dọc trên màn hình nhỏ"
+      ],
+      "expected": "Không bị giật, không scroll ngang, không có vùng trắng dư"
+    },
+    {
+      "id": "0d44",
+      "category": "Cross-browser & Cross-device Testing",
+      "type": "Web App",
+      "name": "Kiểm tra tự điều chỉnh chiều cao/độ rộng các thành phần",
+      "steps": [
+        "Resize chiều cao/chiều rộng màn hình, xoay ngang thiết bị"
+      ],
+      "expected": "Các thành phần tự động co dãn phù hợp, không bị tràn hoặc quá nhỏ"
+    },
+    {
+      "id": "f20e",
+      "category": "Cross-browser & Cross-device Testing",
+      "type": "Web App",
+      "name": "Kiểm tra ảnh, video có responsive không",
+      "steps": [
+        "Kiểm tra ảnh nền, ảnh sản phẩm, video nhúng ở mobile"
+      ],
+      "expected": "Tự động co lại phù hợp với chiều rộng màn hình, không tràn"
+    },
+    {
+      "id": "2863",
+      "category": "Cross-browser & Cross-device Testing",
+      "type": "Web App",
+      "name": "Kiểm tra tốc độ tải trang trên mạng di động",
+      "steps": [
+        "Bật chế độ 3G hoặc chậm mạng, truy cập website"
+      ],
+      "expected": "Trang vẫn tải được, hiển thị dần nội dung chính, không bị treo"
+    },
+    {
+      "id": "33a9",
+      "category": "Accessibility Testing",
+      "type": "Web App",
+      "name": "Kiểm tra khả năng điều hướng bằng bàn phím",
+      "steps": [
+        "Sử dụng phím Tab, Shift + Tab, Enter để điều hướng qua các nút và link"
+      ],
+      "expected": "Thứ tự điều hướng hợp lý, có viền highlight rõ ràng khi focus"
+    },
+    {
+      "id": "46a0",
+      "category": "Accessibility Testing",
+      "type": "Web App",
+      "name": "Kiểm tra có thể sử dụng trình đọc màn hình",
+      "steps": [
+        "Dùng NVDA (Windows) hoặc VoiceOver (Mac) đọc nội dung website"
+      ],
+      "expected": "Tất cả tiêu đề, nút, mô tả, label đọc được rõ ràng"
+    },
+    {
+      "id": "efd0",
+      "category": "Accessibility Testing",
+      "type": "Web App",
+      "name": "Kiểm tra thẻ alt cho hình ảnh",
+      "steps": [
+        "Kiểm tra source code hoặc dùng công cụ kiểm thử → kiểm tra các hình có alt mô tả"
+      ],
+      "expected": "Tất cả hình ảnh quan trọng đều có thuộc tính alt"
+    },
+    {
+      "id": "0ee6",
+      "category": "Accessibility Testing",
+      "type": "Web App",
+      "name": "Kiểm tra độ tương phản màu văn bản và nền",
+      "steps": [
+        "Dùng công cụ như WebAIM Contrast Checker → nhập màu nền và màu chữ"
+      ],
+      "expected": "Độ tương phản ≥ 4.5:1 đối với văn bản thường; ≥ 3:1 với chữ lớn"
+    },
+    {
+      "id": "404e",
+      "category": "Accessibility Testing",
+      "type": "Web App",
+      "name": "Kiểm tra tiêu đề cấu trúc hợp lý (h1 → h6)",
+      "steps": [
+        "Kiểm tra có đúng 1 thẻ <h1> trên mỗi trang, các heading dùng đúng cấp độ"
+      ],
+      "expected": "Heading logic rõ ràng, hỗ trợ người dùng screen reader hiểu nội dung dễ hơn"
+    },
+    {
+      "id": "3e95",
+      "category": "Accessibility Testing",
+      "type": "Web App",
+      "name": "Kiểm tra label cho input form",
+      "steps": [
+        "Xem mã nguồn hoặc dùng Tab → kiểm tra mỗi input có label rõ ràng hoặc aria-label"
+      ],
+      "expected": "Mỗi trường input đều có mô tả rõ ràng cho người đọc màn hình"
+    },
+    {
+      "id": "0f3e",
+      "category": "Accessibility Testing",
+      "type": "Web App",
+      "name": "Kiểm tra trạng thái aria cho nút/toggle",
+      "steps": [
+        "Với các nút dạng toggle (ẩn/hiện), kiểm tra có aria-expanded, aria-hidden,..."
+      ],
+      "expected": "Các thuộc tính aria phản ánh đúng trạng thái hiện tại"
+    },
+    {
+      "id": "03c2",
+      "category": "Accessibility Testing",
+      "type": "Web App",
+      "name": "Kiểm tra có thể phóng to trình duyệt",
+      "steps": [
+        "Tăng zoom trình duyệt lên 200%"
+      ],
+      "expected": "Nội dung không bị vỡ layout, vẫn dễ đọc dễ thao tác"
+    },
+    {
+      "id": "1c7f",
+      "category": "Accessibility Testing",
+      "type": "Web App",
+      "name": "Kiểm tra focus không bị mất khi mở modal/popup",
+      "steps": [
+        "Tab đến 1 nút → click mở popup → kiểm tra focus ở trong popup"
+      ],
+      "expected": "Focus tự động chuyển vào popup, không đi ra ngoài popup"
+    },
+    {
+      "id": "f81e",
+      "category": "Accessibility Testing",
+      "type": "Web App",
+      "name": "Kiểm tra phím tắt có thể sử dụng (nếu có)",
+      "steps": [
+        "Nếu website hỗ trợ hotkey (vd: Alt+S để submit) → kiểm tra hoạt động"
+      ],
+      "expected": "Phím tắt hoạt động đúng, không xung đột trình duyệt"
+    },
+    {
+      "id": "2e7b",
+      "category": "Performance Testing",
+      "type": "Web App",
+      "name": "Kiểm tra thời gian tải trang lần đầu",
+      "steps": [
+        "Clear cache → mở trang bằng trình duyệt → đo bằng DevTools → tab Network → DOMContentLoaded & Load"
+      ],
+      "expected": "Trang tải < 3s với kết nối bình thường"
+    },
+    {
+      "id": "a9b2",
+      "category": "Performance Testing",
+      "type": "Web App",
+      "name": "Kiểm tra thời gian tải lại trang (cached)",
+      "steps": [
+        "Truy cập lại cùng URL (có cache) → đo thời gian tải"
+      ],
+      "expected": "Tốc độ tải nhanh hơn rõ rệt (thường < 1.5s)"
+    },
+    {
+      "id": "c173",
+      "category": "Performance Testing",
+      "type": "Web App",
+      "name": "Kiểm tra tải ảnh tối ưu",
+      "steps": [
+        "Dùng DevTools kiểm tra các ảnh (tab Network → Img)"
+      ],
+      "expected": "Ảnh có định dạng nén tốt (WebP, JPG) và dung lượng tối ưu (< 500KB tùy mục đích)"
+    },
+    {
+      "id": "3d93",
+      "category": "Performance Testing",
+      "type": "Web App",
+      "name": "Kiểm tra thứ tự tải tài nguyên",
+      "steps": [
+        "Dùng DevTools → xem thứ tự tải JS, CSS, ảnh → ưu tiên tài nguyên cần thiết"
+      ],
+      "expected": "CSS, JS chính và nội dung quan trọng tải trước → ảnh nền hoặc animation tải sau"
+    },
+    {
+      "id": "ba16",
+      "category": "Performance Testing",
+      "type": "Web App",
+      "name": "Kiểm tra lazy loading cho ảnh hoặc iframe",
+      "steps": [
+        "Cuộn xuống phần có ảnh hoặc iframe → kiểm tra có tải ngay hay chỉ khi hiện trên màn hình"
+      ],
+      "expected": "Chỉ tải khi thành phần hiển thị trong viewport (loading=\"lazy\")"
+    },
+    {
+      "id": "f515",
+      "category": "Performance Testing",
+      "type": "Web App",
+      "name": "Kiểm tra script chặn hiển thị",
+      "steps": [
+        "Dùng Lighthouse hoặc DevTools → kiểm tra JS nào gây chặn (render-blocking)"
+      ],
+      "expected": "Không có JS/CSS chặn hiển thị, hoặc đã tối ưu bằng async/defer/preload"
+    },
+    {
+      "id": "3929",
+      "category": "Performance Testing",
+      "type": "Web App",
+      "name": "Kiểm tra animation mượt mà",
+      "steps": [
+        "Tương tác mở modal, hover button, di chuyển ảnh"
+      ],
+      "expected": "Animation chạy mượt (không bị giật/đơ)"
+    },
+    {
+      "id": "7e71",
+      "category": "Performance Testing",
+      "type": "Web App",
+      "name": "Kiểm tra sử dụng font bên ngoài có tối ưu không",
+      "steps": [
+        "Kiểm tra font từ Google hoặc CDN → xem có preload hay không"
+      ],
+      "expected": "Font preload sớm, không làm trang trắng trong lúc tải"
+    },
+    {
+      "id": "7588",
+      "category": "Performance Testing",
+      "type": "Web App",
+      "name": "Kiểm tra phản hồi UI khi click nút",
+      "steps": [
+        "Click các nút có hành động (submit, chuyển tab...) → đo thời gian phản hồi"
+      ],
+      "expected": "Giao diện phản hồi < 100ms, có loading indicator nếu chờ lâu"
+    },
+    {
+      "id": "2a4d",
+      "category": "Performance Testing",
+      "type": "Web App",
+      "name": "Kiểm tra trạng thái loading khi chờ dữ liệu",
+      "steps": [
+        "Vào trang có dữ liệu đang tải (dùng API) → kiểm tra hiển thị trạng thái loading"
+      ],
+      "expected": "Có loader/spinner → tránh trắng hoặc bị hiểu nhầm là lỗi"
+    },
+    {
+      "id": "9f99",
+      "category": "Security Testing",
+      "type": "Web App",
+      "name": "Kiểm tra hiển thị thông báo lỗi bảo mật khi đăng nhập sai",
+      "steps": [
+        "Nhập sai username/password → gửi form"
+      ],
+      "expected": "Thông báo chung chung ('Tài khoản hoặc mật khẩu không đúng'), không tiết lộ chi tiết"
+    },
+    {
+      "id": "3edf",
+      "category": "Security Testing",
+      "type": "Web App",
+      "name": "Kiểm tra che mật khẩu khi nhập",
+      "steps": [
+        "Nhập mật khẩu trong ô input"
+      ],
+      "expected": "Ký tự hiển thị dưới dạng dấu ● hoặc *"
+    },
+    {
+      "id": "82d7",
+      "category": "Security Testing",
+      "type": "Web App",
+      "name": "Kiểm tra nút hiện/ẩn mật khẩu hoạt động",
+      "steps": [
+        "Nhấn icon 'eye' → chuyển đổi giữa hiện/ẩn"
+      ],
+      "expected": "Mật khẩu hiện đúng khi chọn hiện, và ẩn lại khi chọn ẩn"
+    },
+    {
+      "id": "b8a0",
+      "category": "Security Testing",
+      "type": "Web App",
+      "name": "Kiểm tra không hiển thị dữ liệu nhạy cảm trong HTML",
+      "steps": [
+        "Kiểm tra View Source / Inspect Element ở form đăng nhập"
+      ],
+      "expected": "Không thấy giá trị password, token, hoặc thông tin nhạy cảm"
+    },
+    {
+      "id": "d960",
+      "category": "Security Testing",
+      "type": "Web App",
+      "name": "Kiểm tra giao diện chống clickjacking",
+      "steps": [
+        "Mở website trong thẻ <iframe> ở website khác"
+      ],
+      "expected": "Website không hiển thị nếu không cho phép → có header X-Frame-Options/CSP"
+    },
+    {
+      "id": "c3ae",
+      "category": "Security Testing",
+      "type": "Web App",
+      "name": "Kiểm tra cảnh báo khi gửi dữ liệu không an toàn",
+      "steps": [
+        "Gửi form login qua kết nối http://"
+      ],
+      "expected": "Trình duyệt hiện cảnh báo bảo mật"
+    },
+    {
+      "id": "40ad",
+      "category": "Security Testing",
+      "type": "Web App",
+      "name": "Kiểm tra nút 'Xóa', 'Reset', 'Hủy' có xác nhận trước khi thực thi",
+      "steps": [
+        "Nhấn nút 'Delete', 'Reset form', 'Cancel'"
+      ],
+      "expected": "Có modal xác nhận hoặc cảnh báo để tránh thao tác nhầm"
+    },
+    {
+      "id": "022e",
+      "category": "Security Testing",
+      "type": "Web App",
+      "name": "Kiểm tra session timeout hiển thị UI phù hợp",
+      "steps": [
+        "Đăng nhập, sau đó không thao tác vài phút → thử thao tác"
+      ],
+      "expected": "Hiển thị thông báo 'Phiên đăng nhập đã hết hạn', yêu cầu đăng nhập lại"
+    },
+    {
+      "id": "1eaf",
+      "category": "Security Testing",
+      "type": "Web App",
+      "name": "Kiểm tra input không cho nhập script hoặc mã HTML",
+      "steps": [
+        "Nhập <script>alert(1)</script> vào bất kỳ ô input hoặc form → gửi"
+      ],
+      "expected": "Hiển thị nguyên văn chuỗi chứ không thực thi mã"
+    },
+    {
+      "id": "4174",
+      "category": "Security Testing",
+      "type": "Web App",
+      "name": "Kiểm tra URL không chứa token hoặc dữ liệu nhạy cảm",
+      "steps": [
+        "Quan sát URL khi thao tác đăng nhập, gửi form, chuyển trang có liên quan đến xác thực"
+      ],
+      "expected": "Không hiển thị access_token, password, hoặc thông tin nhạy cảm trên URL"
+    },
+    {
+      "id": "27e1",
+      "category": "Security Testing", 
+      "type": "Web App",
+      "name": "Truy cập trang riêng tư không đăng nhập",
+      "steps": [
+        "Dán URL trang dashboard/profile/... vào trình duyệt khi chưa đăng nhập"
+      ],
+      "expected": "Bị chuyển về trang đăng nhập hoặc hiển thị lỗi không được phép"
+    },
+    {
+      "id": "422c",
+      "category": "Security Testing",
+      "type": "Web App",
+      "name": "Kiểm tra URL manipulation",
+      "steps": [
+        "Thay đổi ID trong URL (vd: /profile/123 thành /profile/999)"
+      ],
+      "expected": "Nếu không có quyền, hiển thị lỗi 'Access Denied' hoặc redirect về trang an toàn"
+    },
+    {
+      "id": "1e73",
+      "category": "Security Testing",
+      "type": "Web App",
+      "name": "Kiểm tra ẩn dữ liệu nhạy cảm trên UI",
+      "steps": [
+        "Kiểm tra không hiển thị password/token/API key trên giao diện hoặc trong mã nguồn"
+      ],
+      "expected": "Dữ liệu nhạy cảm không xuất hiện bất kỳ đâu trong DOM, HTML, JS"
+    },
+    {
+      "id": "b21c",
+      "category": "Security Testing",
+      "type": "Web App",
+      "name": "Kiểm tra giới hạn sai mật khẩu",
+      "steps": [
+        "Nhập sai mật khẩu nhiều lần liên tục"
+      ],
+      "expected": "Hiển thị cảnh báo và giới hạn đăng nhập tạm thời sau số lần sai tối đa"
+    },
+    {
+      "id": "ae7e",
+      "category": "Security Testing",
+      "type": "Web App",
+      "name": "Kiểm tra thao tác khi không đủ quyền truy cập",
+      "steps": [
+        "Đăng nhập với role thấp (Tester) truy cập trang của Admin"
+      ],
+      "expected": "Bị chặn truy cập, hiển thị thông báo phù hợp"
+    },
+    {
+      "id": "3629",
+      "category": "Security Testing",
+      "type": "Web App",
+      "name": "Kiểm tra không hiển thị thông tin cá nhân người khác",
+      "steps": [
+        "Truy cập trang người khác bằng ID hoặc API call giả mạo"
+      ],
+      "expected": "Bị chặn hoặc trả về lỗi không tìm thấy/ký quyền truy cập"
+    },
+    {
+      "id": "0af5",
+      "category": "Internationalization & Localization Testing (i18n/L10n)",
+      "type": "Web App",
+      "name": "Kiểm tra nút/chức năng chuyển đổi ngôn ngữ",
+      "steps": [
+        "Chọn ngôn ngữ khác (EN, VI, FR…) trong giao diện"
+      ],
+      "expected": "Giao diện đổi toàn bộ ngôn ngữ, không lỗi font, không lẫn ngôn ngữ"
+    },
+    {
+      "id": "3152",
+      "category": "Internationalization & Localization Testing (i18n/L10n)",
+      "type": "Web App",
+      "name": "Kiểm tra tất cả chuỗi văn bản đã được dịch",
+      "steps": [
+        "Duyệt toàn bộ trang sau khi đổi ngôn ngữ → so sánh với ngôn ngữ gốc"
+      ],
+      "expected": "Không còn sót chuỗi chưa dịch hoặc chuỗi tiếng Anh trong phiên bản khác"
+    },
+    {
+      "id": "79ae",
+      "category": "Internationalization & Localization Testing (i18n/L10n)",
+      "type": "Web App",
+      "name": "Kiểm tra font hỗ trợ đa ngôn ngữ (ký tự đặc biệt, dấu, tiếng Hoa...)",
+      "steps": [
+        "Chuyển sang các ngôn ngữ có ký tự đặc biệt → kiểm tra hiển thị"
+      ],
+      "expected": "Font không bị lỗi, hiển thị rõ ràng"
+    },
+    {
+      "id": "d019",
+      "category": "Internationalization & Localization Testing (i18n/L10n)",
+      "type": "Web App",
+      "name": "Kiểm tra định dạng ngày tháng thay đổi theo ngôn ngữ/quốc gia",
+      "steps": [
+        "Chuyển ngôn ngữ → kiểm tra định dạng ngày (dd/mm/yyyy ↔ mm/dd/yyyy...)"
+      ],
+      "expected": "Định dạng ngày đúng theo từng locale"
+    },
+    {
+      "id": "720c",
+      "category": "Internationalization & Localization Testing (i18n/L10n)",
+      "type": "Web App",
+      "name": "Kiểm tra định dạng tiền tệ, đơn vị phù hợp quốc gia",
+      "steps": [
+        "Chuyển region → kiểm tra đơn vị tiền, dấu chấm/phẩy phân cách số"
+      ],
+      "expected": "Hiển thị đúng: 1.000,00 (VN) ↔ 1,000.00 (EN-US)"
+    },
+    {
+      "id": "d3f6",
+      "category": "Internationalization & Localization Testing (i18n/L10n)",
+      "type": "Web App",
+      "name": "Kiểm tra layout không bị vỡ khi ngôn ngữ dài",
+      "steps": [
+        "Dùng ngôn ngữ có chuỗi dài (Đức, Nhật, Hàn...)"
+      ],
+      "expected": "UI không bị tràn dòng, cắt chữ, vỡ giao diện"
+    },
+    {
+      "id": "1808",
+      "category": "Internationalization & Localization Testing (i18n/L10n)",
+      "type": "Web App",
+      "name": "Kiểm tra ngôn ngữ mặc định đúng khi load lần đầu",
+      "steps": [
+        "Truy cập website lần đầu (hoặc từ trình duyệt mới)"
+      ],
+      "expected": "Giao diện tự động hiển thị theo ngôn ngữ trình duyệt/người dùng"
+    },
+    {
+      "id": "56c1",
+      "category": "Internationalization & Localization Testing (i18n/L10n)",
+      "type": "Web App",
+      "name": "Kiểm tra lưu trạng thái ngôn ngữ",
+      "steps": [
+        "Chuyển sang ngôn ngữ khác → reload trang hoặc chuyển trang khác"
+      ],
+      "expected": "Ngôn ngữ vẫn giữ nguyên, không tự đổi lại"
+    },
+    {
+      "id": "69b3",
+      "category": "Internationalization & Localization Testing (i18n/L10n)",
+      "type": "Web App",
+      "name": "Kiểm tra từ phải sang trái (RTL) nếu có hỗ trợ",
+      "steps": [
+        "Chuyển sang ngôn ngữ như tiếng Ả Rập hoặc Do Thái"
+      ],
+      "expected": "Giao diện đổi sang từ phải sang trái hoàn chỉnh (layout + văn bản)"
+    },
+    {
+      "id": "eb06",
+      "category": "Internationalization & Localization Testing (i18n/L10n)",
+      "type": "Web App",
+      "name": "Kiểm tra từ viết tắt, chữ in hoa vẫn hợp lý trong từng ngôn ngữ",
+      "steps": [
+        "Đọc văn bản/tiêu đề để phát hiện lỗi viết tắt không rõ nghĩa khi dịch"
+      ],
+      "expected": "Không sử dụng từ viết tắt gây hiểu nhầm trong các bản dịch"
+    },
+    {
+      "id": "dfc2",
+      "category": "Functionality Testing",
+      "type": "Web App",
+      "name": "Kiểm tra điều hướng các liên kết (navigation)",
+      "steps": [
+        "Nhấp vào tất cả liên kết trong header, footer, menu chính"
+      ],
+      "expected": "Chuyển đúng trang, không 404, mở đúng nội dung"
+    },
+    {
+      "id": "918f",
+      "category": "Functionality Testing",
+      "type": "Web App",
+      "name": "Kiểm tra chức năng lọc/sắp xếp dữ liệu",
+      "steps": [
+        "Tìm kiếm sản phẩm hoặc lọc theo tiêu chí"
+      ],
+      "expected": "Kết quả được lọc đúng theo điều kiện đã chọn"
+    },
+    {
+      "id": "7f9f",
+      "category": "Functionality Testing",
+      "type": "Web App",
+      "name": "Kiểm tra form có submit khi thiếu dữ liệu không hợp lệ",
+      "steps": [
+        "Bỏ trống các trường bắt buộc rồi nhấn Gửi"
+      ],
+      "expected": "Hiển thị thông báo lỗi, không gửi request"
+    },
+    {
+      "id": "6d30",
+      "category": "Functionality Testing",
+      "type": "Web App",
+      "name": "Kiểm tra thao tác CRUD: Thêm/Sửa/Xóa dữ liệu",
+      "steps": [
+        "Thêm/Sửa/Xóa bài viết, sản phẩm, bình luận..."
+      ],
+      "expected": "Dữ liệu được cập nhật chính xác trong database/backend và hiển thị đúng UI"
+    },
+    {
+      "id": "d351",
+      "category": "Functionality Testing",
+      "type": "Web App",
+      "name": "Kiểm tra chức năng pagination (phân trang)",
+      "steps": [
+        "Nhấn qua các trang (Next, Prev, số trang)"
+      ],
+      "expected": "Hiển thị đúng dữ liệu của trang đó, không lặp/lỗi dữ liệu"
+    },
+    {
+      "id": "93d4",
+      "category": "Functionality Testing",
+      "type": "Web App",
+      "name": "Kiểm tra hiển thị dữ liệu dynamic từ API",
+      "steps": [
+        "Load trang danh sách sản phẩm từ server"
+      ],
+      "expected": "Dữ liệu từ API hiển thị đúng trên giao diện, xử lý lỗi khi API fail"
+    },
+    {
+      "id": "0950",
+      "category": "Functionality Testing",
+      "type": "Web App",
+      "name": "Kiểm tra redirect đúng khi chưa đăng nhập",
+      "steps": [
+        "Truy cập URL riêng tư khi chưa đăng nhập"
+      ],
+      "expected": "Redirect về trang đăng nhập với thông báo yêu cầu đăng nhập"
+    },
+    {
+      "id": "044c",
+      "category": "Usability Testing",
+      "type": "Web App",
+      "name": "Kiểm tra nội dung hướng dẫn, label, placeholder rõ ràng",
+      "steps": [
+        "Mở các form, kiểm tra label/placeholder của input"
+      ],
+      "expected": "Thể hiện đúng mục đích của trường nhập liệu, không gây hiểu nhầm"
+    },
+    {
+      "id": "3fd5",
+      "category": "Usability Testing",
+      "type": "Web App",
+      "name": "Kiểm tra thông báo lỗi rõ ràng, dễ hiểu",
+      "steps": [
+        "Gửi form với dữ liệu sai hoặc thiếu"
+      ],
+      "expected": "Hiển thị lỗi cụ thể (vd: 'Email không hợp lệ' thay vì 'Có lỗi xảy ra')"
+    },
+    {
+      "id": "22bb",
+      "category": "Usability Testing",
+      "type": "Web App",
+      "name": "Kiểm tra thông báo thành công dễ hiểu",
+      "steps": [
+        "Gửi form thành công, thực hiện hành động đúng"
+      ],
+      "expected": "Hiển thị thông báo tích cực (vd: 'Tạo tài khoản thành công!')"
+    },
+    {
+      "id": "dd70",
+      "category": "Usability Testing",
+      "type": "Web App",
+      "name": "Kiểm tra các nút bấm đặt đúng vị trí, dễ nhận biết",
+      "steps": [
+        "Quan sát layout, xác định vị trí và kích thước các nút chức năng"
+      ],
+      "expected": "Dễ thấy, dễ bấm (không đặt quá sát cạnh, không mờ nhạt)"
+    },
+    {
+      "id": "4f55",
+      "category": "Usability Testing",
+      "type": "Web App",
+      "name": "Kiểm tra icon có mô tả rõ ràng nếu cần",
+      "steps": [
+        "Rê chuột vào icon hoặc nhấn icon không phổ biến"
+      ],
+      "expected": "Có tooltip hoặc text đi kèm giúp hiểu chức năng icon đó"
+    },
+    {
+      "id": "82da",
+      "category": "Usability Testing",
+      "type": "Web App",
+      "name": "Kiểm tra khả năng hoàn tác hành động",
+      "steps": [
+        "Thử xóa dữ liệu, gửi form, hoặc thực hiện thao tác không thể phục hồi"
+      ],
+      "expected": "Có tùy chọn 'Undo' hoặc yêu cầu xác nhận trước khi thực hiện thao tác nguy hiểm"
+    },
+    {
+      "id": "95b6",
+      "category": "Usability Testing",
+      "type": "Web App",
+      "name": "Kiểm tra phản hồi khi thao tác chậm",
+      "steps": [
+        "Nhấn nút gửi form trong mạng chậm hoặc có delay"
+      ],
+      "expected": "Có loading spinner hoặc thông báo 'Đang xử lý…' để không gây bối rối"
+    },
+    {
+      "id": "b5da",
+      "category": "Usability Testing",
+      "type": "Web App",
+      "name": "Kiểm tra cấu trúc menu dễ tìm kiếm",
+      "steps": [
+        "Quan sát thanh điều hướng, menu chính/phụ"
+      ],
+      "expected": "Cấu trúc rõ ràng, các mục quan trọng dễ tiếp cận"
+    },
+    {
+      "id": "42da",
+      "category": "Usability Testing",
+      "type": "Web App",
+      "name": "Kiểm tra consistency trên toàn site",
+      "steps": [
+        "So sánh nhiều trang: cách dùng nút, font, màu sắc"
+      ],
+      "expected": "Giao diện nhất quán, không thay đổi cách trình bày giữa các trang"
+    },
+    {
+      "id": "3117",
+      "category": "Usability Testing",
+      "type": "Web App",
+      "name": "Kiểm tra khả năng tiếp cận thông tin chính",
+      "steps": [
+        "Truy cập trang chủ, dashboard, landing page..."
+      ],
+      "expected": "Thông tin chính (chức năng chính) dễ tìm thấy, không bị che hoặc ẩn sâu"
+    },
+    {
+      "id": "f6a3",
+      "category": "SEO Testing",
+      "type": "Web App",
+      "name": "Kiểm tra meta tags",
+      "steps": [
+        "Kiểm tra source code trang → tìm thẻ meta title, description"
+      ],
+      "expected": "Có meta title và description cho mỗi trang, không quá dài hoặc quá ngắn"
+    },
+    {
+      "id": "5ba7",
+      "category": "SEO Testing",
+      "type": "Web App",
+      "name": "Kiểm tra cấu trúc URL thân thiện",
+      "steps": [
+        "Kiểm tra URL các trang sản phẩm, danh mục, bài viết"
+      ],
+      "expected": "URL rõ ràng, sử dụng dấu gạch ngang, tránh tham số phức tạp"
+    },
+    {
+      "id": "8d4e",
+      "category": "SEO Testing",
+      "type": "Web App",
+      "name": "Kiểm tra schema markup",
+      "steps": [
+        "Kiểm tra source code tìm dữ liệu có cấu trúc (schema.org)"
+      ],
+      "expected": "Có schema markup cho sản phẩm/rating/đánh giá/tổ chức"
+    },
+    {
+      "id": "9a21",
+      "category": "SEO Testing",
+      "type": "Web App",
+      "name": "Kiểm tra canonical tag",
+      "steps": [
+        "Kiểm tra source → tìm thẻ link rel=\"canonical\""
+      ],
+      "expected": "Có canonical tag đúng cho trang có nhiều version (filter, sort)"
+    },
+    {
+      "id": "bc36",
+      "category": "SEO Testing",
+      "type": "Web App",
+      "name": "Kiểm tra trang không bị chặn bởi robots.txt",
+      "steps": [
+        "Truy cập /robots.txt → kiểm tra quy tắc"
+      ],
+      "expected": "Trang quan trọng không bị chặn, chỉ chặn trang quản trị/admin"
+    },
+    {
+      "id": "c8f9",
+      "category": "Content Testing",
+      "type": "Web App",
+      "name": "Kiểm tra nội dung đúng ngữ pháp và chính tả",
+      "steps": [
+        "Đọc kỹ các tiêu đề và nội dung chính"
+      ],
+      "expected": "Không có lỗi chính tả, dấu câu đúng chuẩn, ngữ pháp hợp lý"
+    },
+    {
+      "id": "d7b5",
+      "category": "Content Testing",
+      "type": "Web App",
+      "name": "Kiểm tra tính nhất quán của thuật ngữ",
+      "steps": [
+        "So sánh cách dùng từ ngữ giữa các trang"
+      ],
+      "expected": "Dùng cùng 1 thuật ngữ cho cùng 1 khái niệm trên toàn site"
+    },
+    {
+      "id": "e3a2",
+      "category": "Content Testing",
+      "type": "Web App",
+      "name": "Kiểm tra hình ảnh có alt text",
+      "steps": [
+        "Kiểm tra ảnh sản phẩm/ảnh minh họa có alt text"
+      ],
+      "expected": "Hình ảnh có alt text mô tả ngắn gọn nội dung"
+    },
+    {
+      "id": "f1d0",
+      "category": "Progressive Web App Testing",
+      "type": "Web App",
+      "name": "Kiểm tra Manifest và Service Worker",
+      "steps": [
+        "Mở trang web, kiểm tra mã nguồn hoặc Chrome DevTools (tab Application)"
+      ],
+      "expected": "Có manifest.json và service worker đăng ký đúng"
+    },
+    {
+      "id": "g2b8",
+      "category": "Progressive Web App Testing",
+      "type": "Web App",
+      "name": "Kiểm tra có thể cài đặt như ứng dụng",
+      "steps": [
+        "Kiểm tra hiển thị thông báo \"Thêm vào màn hình chính\""
+      ],
+      "expected": "Hiển thị biểu tượng cài đặt trong thanh địa chỉ, hoặc menu context"
+    },
+    {
+      "id": "h7e4",
+      "category": "Progressive Web App Testing",
+      "type": "Web App",
+      "name": "Kiểm tra hoạt động offline",
+      "steps": [
+        "Tắt kết nối mạng → tải lại trang"
+      ],
+      "expected": "Trang vẫn hiển thị (một phần), không hiện trang lỗi trình duyệt"
+    },
+    {
+      "id": "i9c6",
+      "category": "Integration Testing",
+      "type": "Web App",
+      "name": "Kiểm tra tích hợp với mạng xã hội",
+      "steps": [
+        "Nhấn nút chia sẻ Facebook, Twitter, LinkedIn,..."
+      ],
+      "expected": "Mở popup chia sẻ đúng nội dung, hình ảnh, tiêu đề"
+    },
+    {
+      "id": "j4a3",
+      "category": "Integration Testing",
+      "type": "Web App",
+      "name": "Kiểm tra thanh toán với cổng thanh toán",
+      "steps": [
+        "Tiến hành thanh toán với các phương thức khác nhau"
+      ],
+      "expected": "Chuyển đến cổng thanh toán đúng, nhận kết quả sau khi hoàn tất"
+    },
+    {
+      "id": "k5f7",
+      "category": "Integration Testing",
+      "type": "Web App",
+      "name": "Kiểm tra đăng nhập bằng tài khoản mạng xã hội",
+      "steps": [
+        "Chọn đăng nhập bằng Google, Facebook, Apple,..."
+      ],
+      "expected": "Chuyển đến màn hình xác thực đúng, sau đó quay về web đã đăng nhập"
+    }
+  ]
+}
